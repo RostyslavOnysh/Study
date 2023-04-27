@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/OOP/AbstrClassORInterface/WhatIsInterface/InterfaceExtending/Ford.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/AbstrClassORInterface/WhatIsInterface/InterfaceExtending/Ford.java" afterDir="false" />
-    </list>
+    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +27,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy\" />
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy" />
+      <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy\" />
     </key>
   </component>
   <component name="RunManager" selected="Application.main">
