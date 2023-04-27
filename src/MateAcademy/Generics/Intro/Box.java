@@ -1,17 +1,17 @@
 package MateAcademy.Generics.Intro;
 
-public class Box {
-    private Object value;
+public class Box<T> {
+    private T value;
 
-    public Box (Object value){
+    public Box(T value) {
         this.value = value;
     }
 
-    public Object getValue() {
+    public T getValue() {
         return value;
     }
 
-    public void setValue(Object value) {
+    public void setValue(T value) {
         this.value = value;
     }
 }
