@@ -1,6 +1,6 @@
 package MateAcademy.EqualsAndHashcodeAndClone.HW.FirstTask;
 
-import MateAcademy.JavaCore.OOP.AbstrClassORInterface.StaticKeyword.Example.Cat;
+
 
 public class Car implements Cloneable {
     private String model;

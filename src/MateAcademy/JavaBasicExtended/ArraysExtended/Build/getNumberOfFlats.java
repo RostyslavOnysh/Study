@@ -1,6 +1,5 @@
 package MateAcademy.JavaBasicExtended.ArraysExtended.Build;
 
-import MateAcademy.ArraysExtended.Build.Building;
 
 public class getNumberOfFlats {
     public int getNumberOfFlats(Building[] buildingsInfo) {
