@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/Inheritance/Aviary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/Inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/Inheritance/model/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/Inheritance/model/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/Inheritance/model/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/Aviary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/model/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/model/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TrashHolder/exmpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TrashHolder/exmpl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/EqualsAndHashcodeAndClone/HW/FirstTask/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/EqualsAndHashcodeAndClone/HW/FirstTask/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/Generics/Intro/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/Intro/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/Generics/Intro/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/Intro/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/JavaBasicExtended/ArraysExtended/Build/getNumberOfFlats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/JavaBasicExtended/ArraysExtended/Build/getNumberOfFlats.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.exmpl1">
     <configuration name="DividerNumbToBinaryToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MateAcademy.BitManipulation.DividerNumbToBinaryToString" />
       <module name="Main" />
@@ -79,6 +76,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MateAcademy.Generics.TypeErasure.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.Generics.TypeErasure.Main" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.Generics.TypeErasure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exmpl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrashHolder.exmpl1" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TrashHolder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.AbstrClassORInterface.StaticKeyword.main" />
       <module name="Main" />
@@ -94,6 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exmpl1" />
+        <item itemvalue="Application.MateAcademy.Generics.TypeErasure.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.DividerNumbToBinaryToString" />
