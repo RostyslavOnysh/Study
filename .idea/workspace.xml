@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/Aviary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/model/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/TypeErasure/model/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrashHolder/exmpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TrashHolder/exmpl2.java" afterDir="false" />
+    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="ArrayList equals">
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/HomeWork/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/HomeWork/README TASK" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TrashHolder/exmpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrashHolder/exmpl2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,6 +136,18 @@
       <option name="presentableId" value="Default" />
       <updated>1682589389228</updated>
     </task>
+    <task id="LOCAL-00001" summary="ArrayList equals">
+      <created>1682666625005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682666625005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ArrayList equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList equals" />
   </component>
 </project>
