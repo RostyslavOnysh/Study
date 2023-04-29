@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="ArrayList equals">
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/HomeWork/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/HomeWork/README TASK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/JV_storage/basesyntax/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/JV_storage/basesyntax/impl/StorageImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrashHolder/exmpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrashHolder/exmpl2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
