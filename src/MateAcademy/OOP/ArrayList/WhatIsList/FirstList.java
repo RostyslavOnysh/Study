@@ -18,6 +18,7 @@ public class FirstList {
         list.set(2, 100);
         // how to delete element using his value ? use (Integer.valueOf(100));
         list.remove(Integer.valueOf(100));
-        System.out.println(list);
+        // how to get value using index ?
+        System.out.println(list.get(1));
     }
 }
