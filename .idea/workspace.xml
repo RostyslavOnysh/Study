@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="ArrayList equals">
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/ArrayList/WhatIsList/FirstList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/ArrayList/exmpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/Generics/JV_storage/basesyntax/impl/StorageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/Generics/JV_storage/basesyntax/impl/StorageImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,13 +54,13 @@
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exmpl1">
-    <configuration name="DividerNumbToBinaryToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.BitManipulation.DividerNumbToBinaryToString" />
+  <component name="RunManager" selected="Application.FirstList">
+    <configuration name="FirstList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.ArrayList.WhatIsList.FirstList" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.BitManipulation.*" />
+          <option name="PATTERN" value="MateAcademy.OOP.ArrayList.WhatIsList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstList" />
         <item itemvalue="Application.exmpl1" />
         <item itemvalue="Application.MateAcademy.Generics.TypeErasure.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.DividerNumbToBinaryToString" />
       </list>
     </recent_temporary>
   </component>
