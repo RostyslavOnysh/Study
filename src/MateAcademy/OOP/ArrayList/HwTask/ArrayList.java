@@ -5,15 +5,14 @@ import java.util.NoSuchElementException;
 import java.util.Objects;
 
 public class ArrayList<T> implements List<T> {
-    private static final int DEFAULT_SIZE = 10;
+    private static final int DEFAULT_CAPACITY = 10;
     private static final double SIZE_MULTIPLIER = 1.5;
     private T[] array;
     private int size;
 
-
     @SuppressWarnings("unchecked")
     public ArrayList() {
-        array = (T[]) new Object[DEFAULT_SIZE];
+        array = (T[]) new Object[DEFAULT_CAPACITY];
     }
 
     @Override
@@ -109,4 +108,3 @@ public class ArrayList<T> implements List<T> {
         }
     }
 }
-
