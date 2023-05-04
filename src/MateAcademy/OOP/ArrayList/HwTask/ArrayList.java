@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class ArrayList<T> implements List<T> {
     private static final int DEFAULT_SIZE = 10;
-    private static final double SIZE_MULTIPLY = 1.5;
+    private static final double SIZE_MULTIPLIER = 1.5;
     private T[] array;
     private int size;
 
@@ -14,7 +14,6 @@ public class ArrayList<T> implements List<T> {
     @SuppressWarnings("unchecked")
     public ArrayList() {
         array = (T[]) new Object[DEFAULT_SIZE];
-        size = 0;
     }
 
     @Override
@@ -64,7 +63,12 @@ public class ArrayList<T> implements List<T> {
     public T remove(T element) {
         for (int i = 0; i < array.length; i++) {
             if (Objects.equals(array[i], element)) {
-                return remove(i);
+                T removedElement = array[i];
+                for (int j = i + 1; j < size; j++) {
+                    array[j - 1] = array[j];
+                }
+                array[size--] = null;
+                return removedElement;
             }
         }
         throw new NoSuchElementException();
@@ -82,22 +86,27 @@ public class ArrayList<T> implements List<T> {
 
     private void increaseSize() {
         if (array.length == size) {
-            int newCapacity = (int) (array.length * SIZE_MULTIPLY);
+            int newCapacity = (int) (array.length * SIZE_MULTIPLIER);
             array = Arrays.copyOf(array, newCapacity);
         }
     }
 
     private void checkIndex(int index) {
-        if (index >= size || index < 0) {
-            throw new ArrayListIndexOutOfBoundsException("Input index " + index
-                    + "out of bound " + size);
+        if (index < 0 || index >= size) {
+            throw new ArrayListIndexOutOfBoundsException("Index "
+                    + index
+                    + " is out of bounds for size "
+                    + size);
         }
     }
 
     private void checkAddIndex(int index) {
         if (index > size || index < 0) {
-            throw new ArrayListIndexOutOfBoundsException("Input index " + index
-                    + "out of bound " + size);
+            throw new ArrayListIndexOutOfBoundsException("Invalid index value: "
+                    + index
+                    + ", list size: "
+                    + size);
         }
     }
 }
+
