@@ -1,6 +1,8 @@
 package MateAcademy.OOP.ArrayList.HwTask;
 
+import java.util.Arrays;
 import java.util.NoSuchElementException;
+import java.util.Objects;
 
 public class ArrayList<T> implements List<T> {
     private static final int DEFAULT_SIZE = 10;
@@ -61,7 +63,7 @@ public class ArrayList<T> implements List<T> {
     @Override
     public T remove(T element) {
         for (int i = 0; i < array.length; i++) {
-            if (array[i] != null && array[i].equals(element) || array[i] == element) {
+            if (Objects.equals(array[i], element)) {
                 return remove(i);
             }
         }
@@ -78,12 +80,10 @@ public class ArrayList<T> implements List<T> {
         return size == 0;
     }
 
-    @SuppressWarnings("unchecked")
     private void increaseSize() {
         if (array.length == size) {
-            T[] increasedArray = (T[]) new Object[(int) (array.length * DEFAULT_SIZE)];
-            System.arraycopy(array, 0, increasedArray, 0, size);
-            array = increasedArray;
+            int newCapacity = (int) (array.length * SIZE_MULTIPLY);
+            array = Arrays.copyOf(array, newCapacity);
         }
     }
 
