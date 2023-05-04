@@ -52,7 +52,7 @@ public class StorageImpl<K, V> implements Storage<K, V> {
                 break;
             }
         }
-        if (!found){
+        if (!found) {
             keys[size] = key;
             values[size] = value;
             size++;
@@ -69,7 +69,7 @@ public class StorageImpl<K, V> implements Storage<K, V> {
     @Override
     public V get(K key) {
         for (int i = 0; i < size; i++) {
-            if (Objects.equals(keys[i], key)){
+            if (Objects.equals(keys[i], key)) {
                 return values[i];
             }
         }
