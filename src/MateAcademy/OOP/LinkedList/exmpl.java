@@ -1,6 +1,8 @@
 package MateAcademy.OOP.LinkedList;
 
 
+import MateAcademy.OOP.LinkedList.Structure.LinkedListNode;
+
 public class exmpl {
     public static void main(String[] args) {
    /*     List<Integer> list = new LinkedList<>();
@@ -16,28 +18,27 @@ public class exmpl {
         System.out.println(list);
 
     */
-        Node<Integer> newNode1 = new Node<>(null, 10, null);
-        Node<Integer> newNode2 = new Node<>(newNode1, 20, null);
-        newNode1.next = newNode2;
-        Node<Integer> newNode3 = new Node<>(newNode2, 30, null);
-        newNode2.next = newNode3;
+        Node<Integer> node1 = new Node<>(null, 10, null);
+        Node<Integer> node2 = new Node<>(node1, 20, null);
+        node1.next = node2;
+        Node<Integer> node3 = new Node<>(node2, 30, null);
+        node2.next = node3;
 
-        Node<Integer> currentNode = newNode1;
+        Node<Integer> currentNode = node1;
         while (currentNode != null) {
             System.out.println(currentNode.value);
             currentNode = currentNode.next;
         }
-
     }
 
     static class Node<T> {
-        T value;
-        Node<T> previous;
-        Node<T> next;
+        T value; // значення того типу Т яке будемо додавати в LinkedList
+        Node<T> previous; // посилання на попередній елемент
+        Node<T> next; // посилання на наступний елемент
 
         public Node(Node<T> previous, T value, Node<T> next) {
-            this.value = value;
             this.previous = previous;
+            this.value = value;
             this.next = next;
         }
     }

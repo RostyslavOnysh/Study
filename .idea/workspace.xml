@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="ArrayList equals">
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/exmpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/Structure/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/Structure/LinkedListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/exmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/exmpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,6 +52,10 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy" />
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy\" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MateAcademy.OOP.ArrayList.HwTask.test" />
+      <recent name="MateAcademy.OOP.ArrayList.HwTask" />
     </key>
   </component>
   <component name="RunManager" selected="Application.exmpl">
@@ -151,5 +156,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ArrayList equals" />
     <option name="LAST_COMMIT_MESSAGE" value="ArrayList equals" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/exmpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
