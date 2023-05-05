@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="ArrayList equals">
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/AlgorithmComplexity/exmpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/AlgorithmComplexity/matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/Structure/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/Structure/LinkedListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/exmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/exmpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/AlgorithmComplexity/exmpl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/AlgorithmComplexity/exmpl1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,26 +59,13 @@
       <recent name="MateAcademy.OOP.ArrayList.HwTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exmpl">
-    <configuration name="FirstList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.ArrayList.WhatIsList.FirstList" />
+  <component name="RunManager" selected="Application.exmpl2">
+    <configuration name="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.OOP.ArrayList.WhatIsList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MateAcademy.Generics.TypeErasure.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.Generics.TypeErasure.Main" />
-      <module name="Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MateAcademy.Generics.TypeErasure.*" />
+          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exmpl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrashHolder.exmpl1" />
+    <configuration name="exmpl2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl2" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TrashHolder.*" />
+          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.matrix" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exmpl2" />
+        <item itemvalue="Application.MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" />
+        <item itemvalue="Application.matrix" />
         <item itemvalue="Application.exmpl" />
         <item itemvalue="Application.MateAcademy.OOP.Task.Printer.main" />
-        <item itemvalue="Application.FirstList" />
-        <item itemvalue="Application.exmpl1" />
-        <item itemvalue="Application.MateAcademy.Generics.TypeErasure.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -156,16 +157,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ArrayList equals" />
     <option name="LAST_COMMIT_MESSAGE" value="ArrayList equals" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MateAcademy/OOP/LinkedList/exmpl.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

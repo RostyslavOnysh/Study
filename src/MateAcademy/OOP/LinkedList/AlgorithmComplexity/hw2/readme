@@ -1,0 +1,41 @@
+First, check if the node to be deleted is null. If it is, then there is nothing to delete,
+ so return from the method.
+If the node is not null, check if the node has a previous and next node.
+ If both the previous and next nodes are not null,
+ then the node to be deleted is a middle node in the list.
+  In this case, you can simply update the next and previous pointers of the previous and
+  next nodes to bypass the node to be deleted, effectively removing it from the list.
+If the node has a previous node but no next node,
+then the node to be deleted is the tail node in the list.
+In this case, you can simply update the previous node's next pointer to null,
+effectively removing the tail node from the list.
+If the node has a next node but no previous node, then the node to be deleted is
+ the head node in the list. In this case, you can simply update the next node's previous pointer
+ to null, effectively removing the head node from the list.
+After deleting the node, you can set its next and previous pointers to null to remove
+any remaining references to the deleted node.
+Once you have deleted the node, you can return from the method.
+
+
+Сначала проверьте, является ли узел, подлежащий удалению, нулевым.
+ Если это так, то удалять нечего, поэтому возвращайтесь из метода.
+
+Если узел не равен null, проверьте, есть ли у узла предыдущий и следующий узлы.
+ Если и предыдущий, и следующий узлы не равны null, то узел, подлежащий удалению,
+ является средним узлом в списке. В этом случае вы можете просто обновить следующий и
+ предыдущий указатели предыдущего и next узлов, чтобы обойти узел, подлежащий удалению,
+  эффективно удалив его из списка.
+
+Если у узла есть предыдущий узел, но нет следующего узла, то узел, подлежащий удалению,
+является конечным узлом в списке. В этом случае вы можете просто обновить следующий
+указатель предыдущего узла до null, эффективно удалив конечный узел из списка.
+
+Если у узла есть следующий узел, но нет предыдущего узла, то узел,
+подлежащий удалению, является головным узлом в списке.
+ В этом случае вы можете просто обновить предыдущий указатель следующего узла до null,
+ эффективно удалив головной узел из списка.
+
+После удаления узла вы можете установить для его следующего и предыдущего указателей значение null,
+ чтобы удалить все оставшиеся ссылки на удаленный узел.
+
+Как только вы удалили узел, вы можете вернуться из метода.
