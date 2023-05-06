@@ -46,3 +46,14 @@ public class ExesandOhs {
    метод поверне true, оскільки кількість символів x та o однакова (2).
 
  */
+
+
+// best practice for this task is :
+/*
+  public static boolean getXO (String str) {
+    str = str.toLowerCase();
+    return str.replace("o","").length() == str.replace("x","").length();
+
+  }
+}
+ */
