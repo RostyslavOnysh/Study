@@ -33,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="MateAcademy.Generics.JV_storage.basesyntax.impl" />
@@ -52,6 +52,10 @@
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy" />
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy\" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MateAcademy.OOP.ArrayList.HwTask.test" />
+      <recent name="MateAcademy.OOP.ArrayList.HwTask" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.trash">
     <configuration name="FirstList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -59,7 +63,7 @@
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.OOP.ArrayList.WhatIsList.*" />
+          <option name="PATTERN" value="MateAcademy.CodeWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.Generics.Intro.Main" />
+    <configuration name="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.Generics.Intro.*" />
+          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MateAcademy.Generics.TypeErasure.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.Generics.TypeErasure.Main" />
+    <configuration name="ReturnNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.CodeWars.ReturnNegative" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.Generics.TypeErasure.*" />
+          <option name="PATTERN" value="MateAcademy.CodeWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exmpl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrashHolder.exmpl1" />
+    <configuration name="exmpl2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl2" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TrashHolder.*" />
+          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +116,12 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MateAcademy.OOP.ArrayList.WhatIsList.*" />
+    <configuration name="matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.matrix" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +131,19 @@
     </configuration>
     <recent_temporary>
       <list>
+
         <item itemvalue="Application.trash" />
         <item itemvalue="Application.FirstList" />
         <item itemvalue="Application.exmpl1" />
         <item itemvalue="Application.MateAcademy.Generics.TypeErasure.Main" />
         <item itemvalue="Application.Main" />
+
+        <item itemvalue="Application.ExesandOhs" />
+        <item itemvalue="Application.ReturnNegative" />
+        <item itemvalue="Application.exmpl2" />
+        <item itemvalue="Application.MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" />
+        <item itemvalue="Application.matrix" />
+
       </list>
     </recent_temporary>
   </component>
