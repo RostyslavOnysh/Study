@@ -1,0 +1,20 @@
+
+
+Create class Machine containing methods public abstract void doWork() and public abstract void stopWork().
+Create classes Truck, Bulldozer, Excavator that will inherit from Machine.
+
+In those classes override doWork(),
+ so it will print message that certain machine started its work.
+Override stopWork() as well. It should print messages that certain machine stopped its work.
+In MainApp class create Machine array with Truck, Bulldozer and Excavator and call methods doWork()
+ and stopWork() in a loop.
+
+--------------------------------------------------------------------------------------------------------------
+Створіть клас Machine, що містить методи public abstract void doWork() і public abstract void stopWork().
+Створіть класи Truck, Bulldozer, Excavator, які будуть успадковані від Machine.
+
+У цих класах замініть doWork(),
+  тому він надрукує повідомлення про те, що певна машина почала роботу.
+Також перевизначте stopWork(). Він повинен друкувати повідомлення про те, що певна машина припинила свою роботу.
+У класі MainApp створіть масив Machine з Truck, Bulldozer і Excavator і викликайте методи doWork()
+  і stopWork() у циклі.
