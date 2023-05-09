@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="ArrayList equals">
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/CodeWars/ExesandOhs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MateAcademy/CodeWars/ReturnNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/CodeWars/ReturnNegative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/ArrayList/FilterList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +57,9 @@
       <recent name="MateAcademy.OOP.ArrayList.HwTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExesandOhs">
-    <configuration name="ExesandOhs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.CodeWars.ExesandOhs" />
+  <component name="RunManager" selected="Application.trash">
+    <configuration name="FirstList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.ArrayList.WhatIsList.FirstList" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
@@ -110,6 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="trash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.ArrayList.WhatIsList.trash" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.OOP.ArrayList.WhatIsList.*" />
     <configuration name="matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.matrix" />
       <module name="Main" />
@@ -125,11 +131,19 @@
     </configuration>
     <recent_temporary>
       <list>
+
+        <item itemvalue="Application.trash" />
+        <item itemvalue="Application.FirstList" />
+        <item itemvalue="Application.exmpl1" />
+        <item itemvalue="Application.MateAcademy.Generics.TypeErasure.Main" />
+        <item itemvalue="Application.Main" />
+
         <item itemvalue="Application.ExesandOhs" />
         <item itemvalue="Application.ReturnNegative" />
         <item itemvalue="Application.exmpl2" />
         <item itemvalue="Application.MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" />
         <item itemvalue="Application.matrix" />
+
       </list>
     </recent_temporary>
   </component>
