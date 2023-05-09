@@ -46,7 +46,7 @@ public class ArrayList<T> implements List<T> {
     @Override
     public void set(T value, int index) {
         checkIndex(index);
-        array[index] = value;
+
     }
 
     @Override
