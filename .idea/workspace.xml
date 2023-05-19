@@ -110,11 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="trash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="trash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true"/>
       <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.ArrayList.WhatIsList.trash" />
       <module name="Main" />
-      <extension name="coverage">
-        <pattern>
+      <extension name="coverage"/>
+        <pattern/>
           <option name="PATTERN" value="MateAcademy.OOP.ArrayList.WhatIsList.*" />
     <configuration name="matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.matrix" />
