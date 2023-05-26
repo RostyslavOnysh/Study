@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="ArrayList equals">
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/ArrayList/FilterList.java" afterDir="false" />
+    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided">
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FirstTask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FirstTask/Task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FourthTask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FourthTask/Task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/SecondTask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/SecondTask/Task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/ThirdTask/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/ThirdTask/Task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/fifth/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/fifth/Task.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -36,7 +46,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Study&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -57,71 +68,65 @@
       <recent name="MateAcademy.OOP.ArrayList.HwTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.trash">
-    <configuration name="FirstList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.ArrayList.WhatIsList.FirstList" />
+  <component name="RunManager" selected="Application.MateAcademy.ArrayPractice.ThirdTask.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.ArrayPractice.FirstTask.Main" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.ArrayPractice.FirstTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MateAcademy.ArrayPractice.SecondTask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.ArrayPractice.SecondTask.Main" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.ArrayPractice.SecondTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MateAcademy.ArrayPractice.ThirdTask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.ArrayPractice.ThirdTask.Main" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.ArrayPractice.ThirdTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.LeetCode.TopInterwievQuestions.RemoveDuplicats" />
+      <module name="Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MateAcademy.LeetCode.TopInterwievQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="youreSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.CodeWars.youreSquare" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MateAcademy.CodeWars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" />
-      <module name="Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReturnNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.CodeWars.ReturnNegative" />
-      <module name="Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MateAcademy.CodeWars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exmpl2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl2" />
-      <module name="Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="trash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true"/>
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.ArrayList.WhatIsList.trash" />
-      <module name="Main" />
-      <extension name="coverage"/>
-        <pattern/>
-          <option name="PATTERN" value="MateAcademy.OOP.ArrayList.WhatIsList.*" />
-    <configuration name="matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.matrix" />
-      <module name="Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MateAcademy.OOP.LinkedList.AlgorithmComplexity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-
-        <item itemvalue="Application.trash" />
-        <item itemvalue="Application.FirstList" />
-        <item itemvalue="Application.exmpl1" />
-        <item itemvalue="Application.MateAcademy.Generics.TypeErasure.Main" />
+        <item itemvalue="Application.MateAcademy.ArrayPractice.ThirdTask.Main" />
+        <item itemvalue="Application.MateAcademy.ArrayPractice.SecondTask.Main" />
         <item itemvalue="Application.Main" />
-
-        <item itemvalue="Application.ExesandOhs" />
-        <item itemvalue="Application.ReturnNegative" />
-        <item itemvalue="Application.exmpl2" />
-        <item itemvalue="Application.MateAcademy.OOP.LinkedList.AlgorithmComplexity.exmpl1" />
-        <item itemvalue="Application.matrix" />
-
+        <item itemvalue="Application.RemoveDuplicats" />
+        <item itemvalue="Application.youreSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -163,11 +160,62 @@
       <option name="project" value="LOCAL" />
       <updated>1682666625005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#1 add codeWars solved task">
+      <created>1684674322522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684674322522</updated>
+    </task>
+    <task id="LOCAL-00003" summary="#2 &quot;Update this solved task with another solution. Best practice.">
+      <created>1684675156387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684675156387</updated>
+    </task>
+    <task id="LOCAL-00004" summary="#3 first leetcode task">
+      <created>1684677800545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684677800545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="#4 add test">
+      <created>1684678471194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684678471194</updated>
+    </task>
+    <task id="LOCAL-00006" summary="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided">
+      <created>1684679103833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684679103833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ArrayList equals" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList equals" />
+    <MESSAGE value="#1 add codeWars solved task" />
+    <MESSAGE value="#2 &quot;Update this solved task with another solution. Best practice." />
+    <MESSAGE value="#3 first leetcode task" />
+    <MESSAGE value="#4 add test" />
+    <MESSAGE value="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided" />
+    <option name="LAST_COMMIT_MESSAGE" value="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided" />
   </component>
 </project>
