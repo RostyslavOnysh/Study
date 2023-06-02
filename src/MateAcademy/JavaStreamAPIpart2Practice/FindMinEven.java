@@ -1,6 +1,5 @@
 package MateAcademy.JavaStreamAPIpart2Practice;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,13 +21,12 @@ public class FindMinEven {
     }
 
     public static int findMinEvenNumber(List<String> numbers) {
-        int minIntInList = numbers.stream()
+        return numbers.stream()
                 .map(str -> str.split(","))
                 .flatMap(Arrays::stream)
                 .mapToInt(Integer::parseInt)
                 .filter(odd -> odd % 2 == 0)
                 .min()
                 .orElseThrow(() -> new RuntimeException("Can't get min value from list: " + numbers));
-        return minIntInList;
     }
 }
