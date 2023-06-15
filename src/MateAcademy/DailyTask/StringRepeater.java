@@ -4,9 +4,7 @@ public class StringRepeater {
     public static String repeatString(int times, String string) {
         StringBuilder res = new StringBuilder();
         if (string.length() > 0) {
-            for (int i = 0; i < times; i++) {
-                res.append(string);
-            }
+            res.append(string.repeat(Math.max(0, times)));
         }
         return res.toString();
     }
