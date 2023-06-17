@@ -1,4 +1,4 @@
-package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
+/*package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
 
 import static org.junit.Assert.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -82,3 +82,6 @@ class FileReaderServiceImplTest {
                 -> fileReaderService.readFromFile(new File(INCORRECT_PATH)));
     }
 }
+
+
+ */

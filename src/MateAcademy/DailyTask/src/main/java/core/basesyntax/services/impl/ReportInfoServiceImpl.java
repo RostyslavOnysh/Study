@@ -1,7 +1,8 @@
 package MateAcademy.DailyTask.src.main.java.core.basesyntax.services.impl;
 
-import core.basesyntax.db.Storage;
-import core.basesyntax.services.interfaces.ReportInfoService;
+
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.db.Storage;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.interfaces.ReportInfoService;
 
 public class ReportInfoServiceImpl implements ReportInfoService {
     private static final String TITLE = "fruit,quantity";

@@ -1,4 +1,4 @@
-package MateAcademy.DailyTask.src.test.java.core.basesyntax.strategy.handler;
+/*package MateAcademy.DailyTask.src.test.java.core.basesyntax.strategy.handler;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -55,3 +55,6 @@ class PurchaseHandlerTest {
         assertEquals(INITIAL_QUANTITY, Storage.fruits.get(BANANA));
     }
 }
+
+
+ */

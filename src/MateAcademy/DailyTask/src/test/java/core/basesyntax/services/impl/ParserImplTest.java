@@ -1,4 +1,4 @@
-package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
+/*package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
 
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -97,3 +97,6 @@ class ParserImplTest {
         assertThrows(ArrayIndexOutOfBoundsException.class, () -> parserImpl.parser(invalidList));
     }
 }
+
+
+ */

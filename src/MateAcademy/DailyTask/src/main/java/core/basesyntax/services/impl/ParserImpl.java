@@ -1,7 +1,9 @@
 package MateAcademy.DailyTask.src.main.java.core.basesyntax.services.impl;
 
-import core.basesyntax.model.FruitTransaction;
-import core.basesyntax.services.interfaces.ParserService;
+
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.model.FruitTransaction;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.interfaces.ParserService;
+
 import java.util.ArrayList;
 import java.util.List;
 

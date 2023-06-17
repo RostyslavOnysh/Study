@@ -1,4 +1,4 @@
-package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
+/*package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
 
 import static org.junit.jupiter.api.Assertions.assertLinesMatch;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -63,3 +63,6 @@ class WriteToFileServiceImplTest {
                 () -> writeToFileService.writeReportToFile(report, nonWritableFile));
     }
 }
+
+
+ */

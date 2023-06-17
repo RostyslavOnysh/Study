@@ -1,6 +1,8 @@
 package MateAcademy.DailyTask.src.main.java.core.basesyntax.services.impl;
 
-import core.basesyntax.services.interfaces.FileReaderService;
+
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.interfaces.FileReaderService;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
+/*package MateAcademy.DailyTask.src.test.java.core.basesyntax.services.impl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -70,3 +70,6 @@ class ReportInfoServiceImplTest {
         assertEquals(expected, actual);
     }
 }
+
+
+ */

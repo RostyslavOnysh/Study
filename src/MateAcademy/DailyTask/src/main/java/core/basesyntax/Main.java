@@ -1,21 +1,23 @@
 package MateAcademy.DailyTask.src.main.java.core.basesyntax;
 
-import core.basesyntax.model.FruitTransaction;
-import core.basesyntax.services.impl.FileReaderServiceImpl;
-import core.basesyntax.services.impl.ParserImpl;
-import core.basesyntax.services.impl.ReportInfoServiceImpl;
-import core.basesyntax.services.impl.WriteToFileServiceImpl;
-import core.basesyntax.services.interfaces.FileReaderService;
-import core.basesyntax.services.interfaces.ParserService;
-import core.basesyntax.services.interfaces.ReportInfoService;
-import core.basesyntax.services.interfaces.WriteToFileService;
-import core.basesyntax.strategy.OperationStrategy;
-import core.basesyntax.strategy.OperationStrategyImpl;
-import core.basesyntax.strategy.handler.BalanceHandler;
-import core.basesyntax.strategy.handler.OperationHandler;
-import core.basesyntax.strategy.handler.PurchaseHandler;
-import core.basesyntax.strategy.handler.ReturnHandler;
-import core.basesyntax.strategy.handler.SupplyHandler;
+
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.model.FruitTransaction;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.impl.FileReaderServiceImpl;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.impl.ParserImpl;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.impl.ReportInfoServiceImpl;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.impl.WriteToFileServiceImpl;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.interfaces.FileReaderService;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.interfaces.ParserService;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.interfaces.ReportInfoService;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.services.interfaces.WriteToFileService;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.strategy.OperationStrategy;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.strategy.OperationStrategyImpl;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.strategy.handler.BalanceHandler;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.strategy.handler.OperationHandler;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.strategy.handler.PurchaseHandler;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.strategy.handler.ReturnHandler;
+import MateAcademy.DailyTask.src.main.java.core.basesyntax.strategy.handler.SupplyHandler;
+
 import java.io.File;
 import java.util.HashMap;
 import java.util.List;
