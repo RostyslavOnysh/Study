@@ -4,17 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided">
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FirstTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FirstTask/Task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FourthTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/FourthTask/Task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/SecondTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/SecondTask/Task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/ThirdTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/ThirdTask/Task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/fifth/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MateAcademy/ArrayPractice/fifth/Task.md" afterDir="false" />
+    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="#28 Daily Task explain how to solve Drinking task">
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/db/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/model/FruitTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/impl/FileReaderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/impl/ParserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/impl/ReportInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/impl/WriteToFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/interfaces/FileReaderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/interfaces/ParserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/interfaces/ReportInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/services/interfaces/WriteToFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/strategy/OperationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/strategy/OperationStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/strategy/handler/BalanceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/strategy/handler/OperationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/strategy/handler/PurchaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/strategy/handler/ReturnHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/java/core/basesyntax/strategy/handler/SupplyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/resources/empty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/resources/input.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/main/resources/report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/services/impl/FileReaderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/services/impl/ParserImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/services/impl/ReportInfoServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/services/impl/WriteToFileServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/strategy/handler/BalanceHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/strategy/handler/PurchaseHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/strategy/handler/ReturnHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/src/test/java/core/basesyntax/strategy/handler/SupplyHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,21 +62,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Study&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/rosps/IdeaProjects/Study/src/MateAcademy/DailyTask"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="MateAcademy.Generics.JV_storage.basesyntax.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rosps\IdeaProjects\Study\src\MateAcademy\DailyTask" />
+      <recent name="C:\Users\rosps\IdeaProjects\Study\src\TrashHolder" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rosps\IdeaProjects\Main\src\MateAcademy" />
@@ -68,13 +91,13 @@
       <recent name="MateAcademy.OOP.ArrayList.HwTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MateAcademy.ArrayPractice.ThirdTask.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.ArrayPractice.FirstTask.Main" />
+  <component name="RunManager" selected="Application.Dictionary">
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.Converter" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.ArrayPractice.FirstTask.*" />
+          <option name="PATTERN" value="MateAcademy.DailyTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MateAcademy.ArrayPractice.SecondTask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.ArrayPractice.SecondTask.Main" />
+    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.Dictionary" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.ArrayPractice.SecondTask.*" />
+          <option name="PATTERN" value="MateAcademy.DailyTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MateAcademy.ArrayPractice.ThirdTask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.ArrayPractice.ThirdTask.Main" />
+    <configuration name="StringRepeater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.StringRepeater" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.ArrayPractice.ThirdTask.*" />
+          <option name="PATTERN" value="MateAcademy.DailyTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.LeetCode.TopInterwievQuestions.RemoveDuplicats" />
+    <configuration name="TruncNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.TruncNumbers" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.LeetCode.TopInterwievQuestions.*" />
+          <option name="PATTERN" value="MateAcademy.DailyTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="youreSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.CodeWars.youreSquare" />
+    <configuration name="findAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.JavaStreamAPIpart2Practice.findAverage" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MateAcademy.CodeWars.*" />
+          <option name="PATTERN" value="MateAcademy.JavaStreamAPIpart2Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MateAcademy.ArrayPractice.ThirdTask.Main" />
-        <item itemvalue="Application.MateAcademy.ArrayPractice.SecondTask.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RemoveDuplicats" />
-        <item itemvalue="Application.youreSquare" />
+        <item itemvalue="Application.Dictionary" />
+        <item itemvalue="Application.StringRepeater" />
+        <item itemvalue="Application.TruncNumbers" />
+        <item itemvalue="Application.Converter" />
+        <item itemvalue="Application.findAverage" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +218,112 @@
       <option name="project" value="LOCAL" />
       <updated>1684679103833</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="end array practice">
+      <created>1685111223024</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685111223024</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add new solved task">
+      <created>1685379169667</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685379169667</updated>
+    </task>
+    <task id="LOCAL-00009" summary="#1 Stream API practice">
+      <created>1685705227793</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685705227793</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#1 Stream API practice,update inline">
+      <created>1685705265849</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685705265849</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#64 end the Stream API theme.">
+      <created>1685726988345</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685726988345</updated>
+    </task>
+    <task id="LOCAL-00012" summary="#33 Daily Task">
+      <created>1686318491698</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686318491698</updated>
+    </task>
+    <task id="LOCAL-00013" summary="#34 Daily Task">
+      <created>1686404048448</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686404048448</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#33 Daily Task">
+      <created>1686570641023</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686570641023</updated>
+    </task>
+    <task id="LOCAL-00015" summary="#32 Daily Task meow">
+      <created>1686767483558</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686767483558</updated>
+    </task>
+    <task id="LOCAL-00016" summary="#31 Daily Task meow">
+      <created>1686857336152</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686857336152</updated>
+    </task>
+    <task id="LOCAL-00017" summary="#31 Daily Task StringRepeater update solving">
+      <created>1686857364600</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686857364600</updated>
+    </task>
+    <task id="LOCAL-00018" summary="#30 Daily Task StringRepeater update solving">
+      <created>1686909944800</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686909944800</updated>
+    </task>
+    <task id="LOCAL-00019" summary="#29 Daily Task StringRepeater update solving">
+      <created>1686913578731</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686913578731</updated>
+    </task>
+    <task id="LOCAL-00020" summary="#28 Daily Task StringRepeater update solving">
+      <created>1686932670442</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686932670442</updated>
+    </task>
+    <task id="LOCAL-00021" summary="#28 Daily Task explain how to solve Drinking task">
+      <created>1686932800591</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686932800591</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +344,20 @@
     <MESSAGE value="#3 first leetcode task" />
     <MESSAGE value="#4 add test" />
     <MESSAGE value="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided" />
+    <MESSAGE value="end array practice" />
+    <MESSAGE value="add new solved task" />
+    <MESSAGE value="#1 Stream API practice" />
+    <MESSAGE value="#1 Stream API practice,update inline" />
+    <MESSAGE value="#64 end the Stream API theme." />
+    <MESSAGE value="#34 Daily Task" />
+    <MESSAGE value="#33 Daily Task" />
+    <MESSAGE value="#32 Daily Task meow" />
+    <MESSAGE value="#31 Daily Task meow" />
+    <MESSAGE value="#31 Daily Task StringRepeater update solving" />
+    <MESSAGE value="#30 Daily Task StringRepeater update solving" />
+    <MESSAGE value="#29 Daily Task StringRepeater update solving" />
+    <MESSAGE value="#28 Daily Task StringRepeater update solving" />
+    <MESSAGE value="#28 Daily Task explain how to solve Drinking task" />
+    <option name="LAST_COMMIT_MESSAGE" value="#28 Daily Task explain how to solve Drinking task" />
   </component>
 </project>
