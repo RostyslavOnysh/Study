@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="#24 Daily task JumpingNumber with explanation">
+    <list default="true" id="1d647d5d-dfa2-4c24-93fb-2bf3e3a5cf25" name="Changes" comment="#18 explain how to solve this task">
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/CaseConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/MaxRotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/PrimeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/SquareNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MateAcademy/DailyTask/WheatAndChaff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Main/MateAcademy/OOP/ArrayList/WhatIsList/trash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MateAcademy/OOP/ArrayList/HwTask/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MateAcademy/OOP/ArrayList/HwTask/ArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/rosps/IdeaProjects/Study/src/MateAcademy/DailyTask"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="MateAcademy.Generics.JV_storage.basesyntax.impl" />
@@ -62,7 +79,7 @@
       <recent name="MateAcademy.OOP.ArrayList.HwTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Vowels">
+  <component name="RunManager" selected="Application.MaxRotate">
     <configuration name="CamelCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.src.CamelCase" />
       <module name="Main" />
@@ -76,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.Dictionary" />
+    <configuration name="CapitalizeNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.CapitalizeNames" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRepeater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.StringRepeater" />
+    <configuration name="MaxRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.MaxRotate" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TruncNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.TruncNumbers" />
+    <configuration name="TipCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MateAcademy.DailyTask.TipCalculator" />
       <module name="Main" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxRotate" />
+        <item itemvalue="Application.CapitalizeNames" />
+        <item itemvalue="Application.TipCalculator" />
         <item itemvalue="Application.Vowels" />
         <item itemvalue="Application.CamelCase" />
-        <item itemvalue="Application.Dictionary" />
-        <item itemvalue="Application.StringRepeater" />
-        <item itemvalue="Application.TruncNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +163,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682589389228</updated>
+      <workItem from="1687613117292" duration="3119000" />
+      <workItem from="1688569989577" duration="1163000" />
+      <workItem from="1688811766382" duration="80000" />
+      <workItem from="1689521469769" duration="2627000" />
+      <workItem from="1689592189256" duration="12000" />
+      <workItem from="1689597515400" duration="8892000" />
     </task>
     <task id="LOCAL-00001" summary="ArrayList equals">
       <created>1682666625005</created>
@@ -329,8 +352,81 @@
       <option name="project" value="LOCAL" />
       <updated>1687092345114</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="#24 Daily task JumpingNumber with explanation">
+      <created>1687092430153</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687092430153</updated>
+    </task>
+    <task id="LOCAL-00028" summary="#23 Daily task ValidParentheses with explanation">
+      <created>1687093634890</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687093634890</updated>
+    </task>
+    <task id="LOCAL-00029" summary="#22 Daily task">
+      <created>1687532948711</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687532948711</updated>
+    </task>
+    <task id="LOCAL-00030" summary="#21 Daily task">
+      <created>1687615659648</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687615659648</updated>
+    </task>
+    <task id="LOCAL-00031" summary="#20 Daily task">
+      <created>1688060822867</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688060822867</updated>
+    </task>
+    <task id="LOCAL-00032" summary="#20 Daily task">
+      <created>1688571808868</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688571808868</updated>
+    </task>
+    <task id="LOCAL-00033" summary="#20 Daily task">
+      <created>1688571822962</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688571822962</updated>
+    </task>
+    <task id="LOCAL-00034" summary="#19 Daily task">
+      <created>1688669327684</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688669327684</updated>
+    </task>
+    <task id="LOCAL-00035" summary="#18">
+      <created>1689522436334</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1689522436334</updated>
+    </task>
+    <task id="LOCAL-00036" summary="#18 explain how to solve this task">
+      <created>1689522599492</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1689522599492</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -344,13 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayList equals" />
-    <MESSAGE value="#1 add codeWars solved task" />
-    <MESSAGE value="#2 &quot;Update this solved task with another solution. Best practice." />
-    <MESSAGE value="#3 first leetcode task" />
-    <MESSAGE value="#4 add test" />
-    <MESSAGE value="#4 The problem has been solved, and a comprehensive explanation of the logic has been provided" />
-    <MESSAGE value="end array practice" />
     <MESSAGE value="add new solved task" />
     <MESSAGE value="#1 Stream API practice" />
     <MESSAGE value="#1 Stream API practice,update inline" />
@@ -369,6 +458,13 @@
     <MESSAGE value="#26 Daily task and splitter task with provided explanation" />
     <MESSAGE value="#25 Daily task" />
     <MESSAGE value="#24 Daily task JumpingNumber with explanation" />
-    <option name="LAST_COMMIT_MESSAGE" value="#24 Daily task JumpingNumber with explanation" />
+    <MESSAGE value="#23 Daily task ValidParentheses with explanation" />
+    <MESSAGE value="#22 Daily task" />
+    <MESSAGE value="#21 Daily task" />
+    <MESSAGE value="#20 Daily task" />
+    <MESSAGE value="#19 Daily task" />
+    <MESSAGE value="#18" />
+    <MESSAGE value="#18 explain how to solve this task" />
+    <option name="LAST_COMMIT_MESSAGE" value="#18 explain how to solve this task" />
   </component>
 </project>
