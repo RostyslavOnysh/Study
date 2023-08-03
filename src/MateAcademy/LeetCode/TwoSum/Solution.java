@@ -29,3 +29,4 @@ public class Solution {
     }
 }
 // the sum of 2 integer in nums array should equals to target
+//https://leetcode.com/problems/two-sum/submissions/
